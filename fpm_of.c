@@ -211,7 +211,7 @@ netlink_msg_type_to_s (uint16_t type)
   switch (type) {
 
   case RTM_NEWROUTE:
-    return "ovs-ofctl add-flow dp0 ip,nw_dst=";
+    return "ovs-ofctl add-flow dp0 pri=10,ip,nw_dst=";
 
   case RTM_DELROUTE:
     return "Del Flow";
