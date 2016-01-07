@@ -15,3 +15,5 @@ listening for a connection from the RIB.
 <pre>
   $ ./fpm-of
 </pre>
+
+This will allow the program to connect to the FPM service in Quagga
